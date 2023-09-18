@@ -6,10 +6,6 @@ import React from "react";
 export default function CheckoutPage() {
   const { selectedProducts, setSelectedProducts } = useContext(ProductsContext);
   const [productsInfos, setProductsInfos] = useState([]);
-  const [address, setAddress] = useState("");
-  const [city, setCity] = useState("");
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
 
   useEffect(() => {
     const uniqIds = [...new Set(selectedProducts)];
