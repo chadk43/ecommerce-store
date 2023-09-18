@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Fully functional ecommerce store made with next.js, react hooks and tailwind.css. Uses Stripe for checkout and mongodb for the items in the store.
+
 ## Getting Started
 
 First, run the development server:
